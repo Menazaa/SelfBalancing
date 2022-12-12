@@ -20,7 +20,7 @@ BluetoothSerial SerialBT;
 // Create message handling variables
 String message =  "";
 char incomingChar;
-float angleV = 3, turnV = 0; // values from remote
+float angleV = 0, turnV = 0; // values from remote
 
 /********** Line Follower **********/
 
